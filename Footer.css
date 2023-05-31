@@ -1,0 +1,75 @@
+/*Footer CSS*/
+footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    background-color: #693227;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    margin-top: 15px;
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 90%;
+}
+
+.socials a i{
+    font-size: 1 rem;
+    width: 20px;
+    margin-top: 0;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aliceblue;
+    transform: scale(1.1);
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+}

@@ -1,0 +1,128 @@
+/*Navigation Bar CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 200px;
+}
+    
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    color: #111;
+}
+
+
+
+/*Footer CSS*/
+footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    background-color: #693227;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    margin-top: 15px;
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 90%;
+}
+
+.socials a i{
+    font-size: 1 rem;
+    width: 20px;
+    margin-top: 0;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aliceblue;
+    transform: scale(1.1);
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+}

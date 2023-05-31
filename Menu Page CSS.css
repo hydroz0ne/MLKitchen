@@ -1,0 +1,80 @@
+/*Menu Gallery CSS*/
+/*Setting for photos in menu*/
+.menutext {
+    text-align: center;
+    font-size: 22px;
+}
+
+.menuimage img {
+    text-align: center;
+    width: 500px; 
+    height: 700px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 4px solid black;
+    border-radius: 50px;
+}
+
+.menucontainer {
+    background-color: #B99976;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 250px;
+}
+
+.slideshow-container {
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+    border-radius: 20px;
+  }
+
+  .mySlides {
+    display: none;
+    text-align: center;
+  }
+
+  .mySlides img {
+    display: inline-block;
+    max-height: 500px;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .menu-text {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+  }
+
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }

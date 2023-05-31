@@ -1,0 +1,142 @@
+/*CSS for headers & paragraphs to center*/
+/*# is for IDs, . is for classes*/
+
+/*Font, background, and header settings for the whole HTML*/
+body {
+    background-color: #B99976;
+    font-family: 'Livvic';
+    font-size: 20px;
+    margin: 0;
+}
+
+#header {
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+/*BG Image CSS*/
+.bgheader{
+    background-image: url("Main\ BG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50%;
+}
+
+.bgheader2{
+    background-image: url("About\ BG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50%;
+}
+
+.bgheader3{
+    background-image: url("Contacts\ BG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50%;
+}
+
+.bgheader4{
+    background-image: url("Menu\ BG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50%;
+}
+
+/*Button CSS*/
+button {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    width: 30%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+    transform: scale(1.1);
+}
+
+.topbutton {
+    margin-left: 10px;
+    font-size: 15px;
+    width: 80%;
+}
+
+/*Scroll Bar CSS*/
+/*Scrollbar width*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/*Scrollbar track*/
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+   
+/*Handle*/
+::-webkit-scrollbar-thumb {
+    background: #b99976; 
+    border: 2px solid black;
+    height: 200px;
+}
+  
+/*Handle on hover*/
+::-webkit-scrollbar-thumb:hover {
+    background: #826c53; 
+}
+
+
+
+/*Container CSS*/ 
+.container {
+    background-color: #b99976;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 175px;
+}
+
+.crldcontainer {
+    background-color: #98735b;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 175px;
+}
+
+/*CSS settings for images and texts*/ 
+.image {
+    border: 4px solid black;
+    width: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+   
+.mainimage {
+    width: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mpimage {
+    width: 450px;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.text {
+    font-size: 22px;
+}
